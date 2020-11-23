@@ -1,7 +1,7 @@
-# Test Readme
+# Test 
   ## Description
 
-  This is a test README for a command-line readme generator program.
+  This is a test of a command-line readme generator app.
 
   ## Table of Contents
 

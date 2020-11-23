@@ -29,11 +29,6 @@ inquirer.prompt([
         name: "email"
     },
     {
-        type: "input",
-        message: "Please describe the project.",
-        name: "description"
-    },
-    {
         type: "list",
         name: "license",
         message: "Please select a license.",
@@ -66,11 +61,3 @@ promptUser()
     .then((data) => writeFileAsync("README.md", generateMarkdown(data)))
     .then(() => console.log("Successfully generated README file."))
     .catch((err) => console.error(err));
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
